@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="supported-color-schemes" content="dark">
+<title>Ponté Taxi Elite — SUV Premium Montréal | GMC de Luxe</title>
+<meta name="description" content="Ponté Taxi Elite — SUV GMC haut de gamme, chauffeur professionnel, Wi-Fi, eau à bord. Prix fixe garanti. Rive-Sud, Centre-Ville, Laurentides, longue distance.">
+<link rel="canonical" href="https://pontetaxi.ca/">
+<meta property="og:title" content="Ponté Taxi Elite — SUV Premium Montréal">
+<meta property="og:description" content="Transport privé premium SUV Elite. Chauffeur professionnel, Wi-Fi, eau, prix fixe garanti. Rive-Sud & Montréal.">
+<meta property="og:url" content="https://pontetaxi.ca/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TaxiService",
+  "name": "Ponté Taxi Elite",
+  "url": "https://pontetaxi.ca/",
+  "telephone": "+15147149576",
+  "email": "info@pontetaxi.ca",
+  "description": "SUV Elite premium GMC. Chauffeur professionnel, Wi-Fi, eau a bord. Prix fixe garanti. Rive-Sud, Centre-Ville, Laurentides, longue distance.",
+  "areaServed": ["Montreal", "Rive-Sud", "Laurentides", "Ottawa", "Quebec City"],
+  "priceRange": "$$$",
+  "openingHours": "Mo-Su 00:00-24:00",
+  "address": {"@type":"PostalAddress","addressRegion":"QC","addressCountry":"CA","addressLocality":"LaSalle"},
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "213"}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,500;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{color-scheme:dark}
+@media(prefers-color-scheme:light){
+  html{background:#07090f!important;color:#f8f5ef!important}
+  body{background:#07090f!important;color:#f8f5ef!important}
+}
+:root{--b:#07090f;--y:#F5C800;--w:#f8f5ef;--wd:rgba(248,245,239,.55);--wdd:rgba(248,245,239,.28);--line:rgba(245,200,0,.12)}
+html{scroll-behavior:smooth;background:var(--b)!important}
+body{font-family:'DM Sans',sans-serif;background:var(--b)!important;color:var(--w);overflow-x:hidden}
+section{background:var(--b)!important}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:18px 32px;background:rgba(7,9,15,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:3px;color:var(--w);text-decoration:none}
+.nav-logo span{color:var(--y)}
+.nav-links{display:flex;align-items:center;gap:24px}
+.back-link{font-size:11px;letter-spacing:1px;color:var(--wd);text-decoration:none;display:flex;align-items:center;gap:6px;transition:.2s}
+.back-link:hover{color:var(--y)}
+.lang-sw{display:flex;gap:6px}
+.lang-btn{background:none;border:none;font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:2px;color:var(--wd);cursor:pointer;padding:2px 4px;transition:.2s}
+.lang-btn.active{color:var(--y)}
+.lang-sep{color:var(--wdd);font-size:11px;line-height:2}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 30%,rgba(245,200,0,.07),transparent 70%)}
+.hero-rings{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:900px;pointer-events:none}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:12px;font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:5px;color:var(--y);margin-bottom:32px;position:relative}
+.hero-eyebrow .ring{width:7px;height:7px;border:1.5px solid var(--y);border-radius:50%}
+.hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(52px,9vw,96px);line-height:1.05;font-weight:500;margin-bottom:20px;position:relative}
+.hero-title em{color:var(--y);font-style:italic}
+.hero-sub{font-size:15px;color:var(--wd);line-height:1.7;max-width:520px;margin:0 auto 48px;position:relative;font-style:italic;font-family:'Cormorant Garamond',serif}
+.hero-cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative}
+.btn-primary{background:var(--y);color:var(--b);font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:2px;padding:15px 30px;border-radius:2px;text-decoration:none;transition:.25s;border:1px solid var(--y);cursor:pointer}
+.btn-ghost{background:transparent;color:var(--w);font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:2px;padding:15px 30px;border:1px solid rgba(255,255,255,.18);border-radius:2px;text-decoration:none;transition:.25s;cursor:pointer}
+.btn-ghost:hover{border-color:var(--y);color:var(--y)}
+.scroll-hint{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;opacity:.35}
+.scroll-hint span{font-size:9px;letter-spacing:2px;color:var(--y)}
+.scroll-line{width:1px;height:40px;background:linear-gradient(var(--y),transparent)}
+
+/* ── SECTIONS ── */
+section{padding:80px 24px}
+.sec-inner{max-width:760px;margin:0 auto;text-align:center}
+.sec-eyebrow{display:block;font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:5px;color:var(--y);margin-bottom:14px}
+.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,6vw,58px);font-weight:500;line-height:1.1;margin-bottom:16px}
+.sec-title em{color:var(--y);font-style:italic}
+.sec-lede{font-size:14px;color:var(--wd);line-height:1.8;max-width:560px;margin:0 auto}
+.sec-divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent);margin:0}
+
+/* ── INCLUDES ── */
+.includes-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:40px;text-align:left}
+.inc-item{display:flex;align-items:flex-start;gap:14px;padding:20px;border:1px solid var(--line);border-radius:2px;background:rgba(255,255,255,.015)}
+.inc-icon{font-size:24px;flex-shrink:0;margin-top:2px}
+.inc-text{font-size:13px;color:var(--wd);line-height:1.6}
+.inc-text strong{display:block;color:var(--w);font-size:14px;font-family:'Bebas Neue',sans-serif;letter-spacing:1px;margin-bottom:3px}
+
+/* ── TARIFS ── */
+.tarif-table{width:100%;border-collapse:collapse;margin-top:40px;text-align:left}
+.tarif-table th{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:3px;color:var(--y);padding:10px 16px;border-bottom:1px solid rgba(245,200,0,.2);font-weight:400}
+.tarif-table td{padding:14px 16px;border-bottom:1px solid var(--line);font-size:13px;color:var(--wd)}
+.tarif-table tr:last-child td{border-bottom:none}
+.tarif-table td:last-child{color:var(--y);font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:1px;text-align:right}
+.tarif-table td:first-child{color:var(--w);font-weight:500}
+.tarif-sep td{background:rgba(245,200,0,.04);color:var(--y)!important;font-family:'Bebas Neue',sans-serif!important;font-size:10px!important;letter-spacing:3px!important;padding:8px 16px!important;border-bottom:1px solid rgba(245,200,0,.15)!important}
+.tarif-note{font-size:11px;color:var(--wdd);margin-top:14px;text-align:center;font-style:italic}
+
+/* ── CALLBACK ── */
+.cb-section{background:rgba(245,200,0,.03);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:48px 24px}
+.cb-inner{max-width:600px;margin:0 auto;text-align:center}
+.cb-title{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:3px;margin-bottom:8px}
+.cb-sub{font-size:13px;color:var(--wd);margin-bottom:28px}
+.cb-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.cb-btn{display:flex;align-items:center;gap:8px;background:transparent;border:1px solid rgba(255,255,255,.18);color:var(--w);font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:1.5px;padding:12px 22px;text-decoration:none;border-radius:2px;transition:.25s}
+.cb-btn:hover{border-color:var(--y);color:var(--y)}
+.cb-dot{width:6px;height:6px;border-radius:50%;background:var(--y)}
+
+/* ── BOOKING FORM ── */
+.bk-section{padding:70px 24px;background:var(--b)!important}
+.bk-inner{max-width:600px;margin:0 auto}
+.bk-route-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:28px 0}
+.bk-group-label{grid-column:1/-1;font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:2px;color:var(--y);opacity:.75;margin-top:14px;margin-bottom:2px;padding-bottom:4px;border-bottom:1px solid rgba(245,200,0,.15)}
+.bk-group-label:first-child{margin-top:0}
+.bk-route{border:1.5px solid var(--line);border-radius:2px;padding:14px 12px;text-align:center;cursor:pointer;transition:.2s;background:var(--b)!important}
+.bk-route.sel{border-color:var(--y);background:rgba(245,200,0,.06)!important}
+.bk-route-name{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:1px;color:var(--w);margin-bottom:4px}
+.bk-route-price{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--y);font-weight:600}
+.bk-form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
+.bk-form-row.full{grid-template-columns:1fr}
+.bk-fgroup label{display:block;font-family:'Bebas Neue',sans-serif;font-size:10px;letter-spacing:2px;color:var(--wd);margin-bottom:6px}
+.bk-fgroup input{width:100%;background:rgba(255,255,255,.06)!important;border:1px solid var(--line);border-radius:2px;padding:12px 14px;color:var(--w)!important;font-family:'DM Sans',sans-serif;font-size:14px}
+.bk-fgroup input:focus{outline:none;border-color:var(--y)}
+.bk-error{color:#ff6b6b;font-size:12px;margin-top:10px;padding:10px 14px;background:rgba(255,107,107,.08);border:1px solid rgba(255,107,107,.25);border-radius:2px;display:none}
+.bk-submit{width:100%;background:var(--y)!important;color:var(--b)!important;font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:2px;padding:16px;border:none;border-radius:2px;cursor:pointer;margin-top:16px;transition:.2s;position:relative}
+.bk-submit:disabled{opacity:.6;cursor:default}
+.bk-spinner{display:none;width:16px;height:16px;border:2px solid rgba(7,9,15,.3);border-top-color:var(--b);border-radius:50%;animation:bkspin .7s linear infinite;position:absolute;right:18px;top:50%;margin-top:-8px}
+@keyframes bkspin{to{transform:rotate(360deg)}}
+
+/* Confirmation overlay */
+.bk-overlay{display:none;position:fixed;inset:0;background:rgba(7,9,15,.9)!important;z-index:500;align-items:flex-start;justify-content:center;padding:24px;backdrop-filter:blur(8px);overflow-y:auto}
+.bk-overlay.show{display:flex}
+.bk-card{background:#0d0f16!important;border:1px solid var(--line);border-radius:4px;max-width:420px;width:100%;padding:32px 28px;margin-top:40px}
+.bk-check{font-size:36px;text-align:center;margin-bottom:10px}
+.bk-card h3{font-family:'Cormorant Garamond',serif;font-size:24px;text-align:center;margin-bottom:6px;font-weight:600}
+.bk-card p{font-size:12px;color:var(--wd);text-align:center;margin-bottom:20px;line-height:1.6}
+.bk-channels{display:flex;gap:8px;margin-bottom:16px}
+.bk-channels button{flex:1;padding:11px;border-radius:2px;font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:1px;cursor:pointer;border:1.5px solid rgba(37,211,102,.25);background:rgba(37,211,102,.15)!important;color:#25d366}
+.bk-channels button.fb{border-color:rgba(24,119,242,.3);background:rgba(24,119,242,.18)!important;color:#4a90d9}
+.bk-channels button.sms{border-color:rgba(245,200,0,.35);background:rgba(245,200,0,.12)!important;color:var(--y)}
+.bk-ref{text-align:center;padding:14px;background:rgba(245,200,0,.04)!important;border:1px solid var(--line);border-radius:2px;margin-bottom:14px}
+.bk-ref-lbl{font-size:10px;letter-spacing:2px;color:var(--wdd);margin-bottom:4px}
+.bk-ref-num{font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--y);letter-spacing:2px}
+.bk-summary{font-size:13px;color:var(--wd);line-height:2;margin-bottom:14px}
+.bk-summary strong{color:var(--w)}
+.bk-price-box{text-align:center;padding:16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:16px;background:transparent!important}
+.bk-price{font-family:'Cormorant Garamond',serif;font-size:34px;color:var(--y);font-weight:600}
+.bk-price-note{font-size:11px;color:var(--wdd);margin-top:4px}
+.bk-pay-btn{display:block;text-align:center;background:var(--y);color:var(--b);border-radius:2px;padding:14px;font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:2px;text-decoration:none;margin-bottom:10px}
+.bk-close-btn{display:block;width:100%;text-align:center;background:var(--b)!important;border:1px solid rgba(255,255,255,.18);color:var(--wd);border-radius:2px;padding:12px;font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:1px;cursor:pointer}
+
+/* ── CLOSING ── */
+.closing{padding:80px 24px;text-align:center}
+.closing-quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(22px,4vw,36px);color:var(--wd);line-height:1.5;max-width:600px;margin:0 auto 40px}
+.closing-quote em{color:var(--y);font-style:italic}
+
+/* ── FOOTER ── */
+footer{background:rgba(0,0,0,.3);border-top:1px solid var(--line);padding:32px 24px;text-align:center}
+footer .f-logo{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;margin-bottom:10px}
+footer .f-logo span{color:var(--y)}
+footer .f-links{display:flex;gap:24px;justify-content:center;margin:14px 0;flex-wrap:wrap;align-items:center}
+footer .f-links a{font-size:12px;color:var(--wd);text-decoration:none;letter-spacing:.5px;transition:.2s}
+footer .f-links a:hover{color:var(--y)}
+footer .f-social{display:flex;gap:12px;align-items:center}
+footer .f-social a{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.15);border-radius:50%;transition:.25s}
+footer .f-social a:hover{border-color:var(--y)}
+footer .f-social svg{width:13px;height:13px;fill:var(--wd)}
+footer .f-copy{font-size:11px;color:var(--wdd)}
+
+/* ── TOPBAR ── */
+.topbar{height:4px;background:linear-gradient(90deg,transparent,var(--y) 15%,var(--y) 85%,transparent)}
+
+/* ── RESPONSIVE ── */
+@media(max-width:600px){
+  nav{padding:14px 20px}
+  .includes-grid{grid-template-columns:1fr}
+  .tarif-table th,.tarif-table td{padding:10px 12px;font-size:12px}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar"></div>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="/">PONTE<span>TAXI</span></a>
+  <div class="nav-links">
+    <a class="back-link" href="https://pontemtl.taxi" data-i="nav_back">Rive-Sud &amp; Nord →</a>
+    <div class="lang-sw">
+      <button class="lang-btn active" id="btn-fr" onclick="setLang('fr')">FR</button>
+      <span class="lang-sep">|</span>
+      <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <svg class="hero-rings" viewBox="0 0 900 900">
+    <circle cx="450" cy="450" r="420" fill="none" stroke="#F5C800" stroke-width=".6" opacity=".15"/>
+    <circle cx="450" cy="450" r="340" fill="none" stroke="#F5C800" stroke-width=".5" opacity=".1"/>
+    <circle cx="450" cy="450" r="260" fill="none" stroke="#F5C800" stroke-width=".4" opacity=".07"/>
+  </svg>
+  <div class="hero-eyebrow"><span class="ring"></span><span data-i="h_eyebrow">PONTÉ TAXI · SUV ELITE</span><span class="ring"></span></div>
+  <h1 class="hero-title" data-i="h_title">Contrôle. Calme.<br><em>Confiance.</em></h1>
+  <p class="hero-sub" data-i="h_sub">Chauffeur professionnel · Wi-Fi à bord · Eau incluse · Prix fixe garanti</p>
+  <p style="font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:4px;color:rgba(245,200,0,.45);margin-top:-28px;margin-bottom:12px" data-i="h_tagline">SUV ELITE BY PONTÉ TAXI</p>
+  <p style="font-size:11px;color:rgba(248,245,239,.3);margin-top:0;margin-bottom:40px;max-width:480px" data-i="h_models">Catégorie SUV Elite : GMC Yukon, Chevrolet Tahoe, Jeep Wagoneer, Chevrolet Suburban ou véhicule équivalent selon disponibilité.</p>
+  <div class="hero-cta-row">
+    <button type="button" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth',block:'start'});" class="btn-primary" data-i="h_book_now">RÉSERVER MAINTENANT</button>
+    <a href="tel:+15147149576" class="btn-ghost" data-i="h_call">APPELER</a>
+    <a href="https://m.me/pontemtltaxi" class="btn-ghost" data-i="h_ms">MESSENGER</a>
+    <button type="button" onclick="document.getElementById('tarifs').scrollIntoView({behavior:'smooth',block:'start'});" class="btn-ghost" data-i="h_tarifs">VOIR LES TARIFS</button>
+  </div>
+  <div class="scroll-hint"><span>↓</span><div class="scroll-line"></div></div>
+</section>
+
+<div class="sec-divider"></div>
+
+<!-- INCLUDES -->
+<section>
+  <div class="sec-inner">
+    <span class="sec-eyebrow" data-i="inc_eyebrow">INCLUS DANS CHAQUE TRAJET</span>
+    <h2 class="sec-title" data-i="inc_title">Une <em>expérience</em> complète</h2>
+    <div class="includes-grid">
+      <div class="inc-item">
+        <div class="inc-icon">🧑‍✈️</div>
+        <div class="inc-text"><strong data-i="inc1_t">CHAUFFEUR PROFESSIONNEL</strong><span data-i="inc1_d">Certifié, courtois et ponctuel.</span></div>
+      </div>
+      <div class="inc-item">
+        <div class="inc-icon">📶</div>
+        <div class="inc-text"><strong data-i="inc2_t">WI-FI À BORD</strong><span data-i="inc2_d">Restez connecté tout au long du trajet.</span></div>
+      </div>
+      <div class="inc-item">
+        <div class="inc-icon">💧</div>
+        <div class="inc-text"><strong data-i="inc3_t">EAU FRAÎCHE INCLUSE</strong><span data-i="inc3_d">Bouteilles d'eau offertes à chaque passager.</span></div>
+      </div>
+      <div class="inc-item">
+        <div class="inc-icon">💰</div>
+        <div class="inc-text"><strong data-i="inc4_t">PRIX FIXE GARANTI</strong><span data-i="inc4_d">Aucune surprise — le prix affiché est le prix final.</span></div>
+      </div>
+      <div class="inc-item">
+        <div class="inc-icon">✈️</div>
+        <div class="inc-text"><strong data-i="inc5_t">SUIVI DE VOL</strong><span data-i="inc5_d">Nous surveillons votre vol en temps réel.</span></div>
+      </div>
+      <div class="inc-item">
+        <div class="inc-icon">👥</div>
+        <div class="inc-text"><strong data-i="inc6_t">JUSQU'À 6 PASSAGERS</strong><span data-i="inc6_d">Idéal pour groupes, familles et équipes corporate.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sec-divider"></div>
+
+<!-- BOOKING FORM -->
+<section class="bk-section" id="booking">
+  <div class="bk-inner">
+    <span class="sec-eyebrow" data-i="bk_eyebrow" style="text-align:center;display:block">RÉSERVATION</span>
+    <h2 class="sec-title" style="text-align:center" data-i="bk_title">Réservez votre <em>SUV Elite</em></h2>
+    <p class="sec-lede" style="text-align:center" data-i="bk_lede">Choisissez votre trajet, indiquez vos coordonnées, et confirmez en un instant.</p>
+
+    <div class="bk-route-grid" id="bk-route-grid">
+      <div class="bk-group-label" data-i="bk_grp_center">CENTRE-VILLE</div>
+      <div class="bk-route sel" data-route="downtown" data-price="120" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_downtown">Centre-Ville → YUL</div>
+        <div class="bk-route-price">120$</div>
+      </div>
+
+      <div class="bk-group-label" data-i="bk_grp_south">SUD — RIVE-SUD</div>
+      <div class="bk-route" data-route="sud1" data-price="160" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_z1">Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand</div>
+        <div class="bk-route-price">160$</div>
+      </div>
+      <div class="bk-route" data-route="sud2" data-price="185" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_z2">Varennes, Carignan, Chambly, Sainte-Julie</div>
+        <div class="bk-route-price">185$</div>
+      </div>
+      <div class="bk-route" data-route="sud3" data-price="210" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_z3">Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville</div>
+        <div class="bk-route-price">210$</div>
+      </div>
+      <div class="bk-route" data-route="sud4" data-price="235" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_z4">Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe</div>
+        <div class="bk-route-price">235$</div>
+      </div>
+
+      <div class="bk-group-label" data-i="bk_grp_north">NORD — LAURENTIDES</div>
+      <div class="bk-route" data-route="nord1" data-price="165" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_n1">Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosemère, Sainte-Thérèse</div>
+        <div class="bk-route-price">165$</div>
+      </div>
+      <div class="bk-route" data-route="nord2" data-price="175" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_n2">Blainville, Lorraine, Bois-des-Filion</div>
+        <div class="bk-route-price">175$</div>
+      </div>
+      <div class="bk-route" data-route="nord3" data-price="185" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_n3">Mirabel, Sainte-Anne-des-Plaines</div>
+        <div class="bk-route-price">185$</div>
+      </div>
+      <div class="bk-route" data-route="nord4" data-price="195" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_n4">Saint-Jérôme</div>
+        <div class="bk-route-price">195$</div>
+      </div>
+      <div class="bk-route" data-route="nord5" data-price="215" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_n5">Prévost</div>
+        <div class="bk-route-price">215$</div>
+      </div>
+      <div class="bk-route" data-route="nord6" data-price="230" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_n6">Saint-Sauveur, Piedmont</div>
+        <div class="bk-route-price">230$</div>
+      </div>
+
+      <div class="bk-group-label" data-i="bk_grp_long">LONGUE DISTANCE</div>
+      <div class="bk-route" data-route="tremblant" data-price="550" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_trbl">Mont-Tremblant</div>
+        <div class="bk-route-price">550$</div>
+      </div>
+      <div class="bk-route" data-route="ottawa" data-price="820" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_ott">Ottawa</div>
+        <div class="bk-route-price">820$</div>
+      </div>
+      <div class="bk-route" data-route="quebec" data-price="1050" onclick="bkPickRoute(this)">
+        <div class="bk-route-name" data-i="bk_r_qc">Québec City</div>
+        <div class="bk-route-price">1050$</div>
+      </div>
+    </div>
+
+    <div style="text-align:center;padding:16px 20px;margin:20px 0;background:rgba(245,200,0,.05);border:1px solid rgba(245,200,0,.15);border-radius:10px">
+      <p style="font-size:13px;color:rgba(248,245,239,.55);margin:0" data-i="bk_notfound">Votre ville n'est pas dans la liste ? Écrivez-nous, nous vous transmettrons l'information rapidement.</p>
+    </div>
+
+    <div class="bk-form-row">
+      <div class="bk-fgroup"><label data-i="bk_f_date">Date</label><input type="date" id="bk-date"></div>
+      <div class="bk-fgroup"><label data-i="bk_f_time">Heure</label><input type="time" id="bk-time" value="08:00"></div>
+    </div>
+    <div class="bk-form-row full">
+      <div class="bk-fgroup"><label data-i="bk_f_flight">Vol (optionnel)</label><input type="text" id="bk-flight" placeholder="AC 301"></div>
+    </div>
+    <div class="bk-form-row">
+      <div class="bk-fgroup"><label data-i="bk_f_name">Nom complet</label><input type="text" id="bk-name" placeholder="Marie Dupont"></div>
+      <div class="bk-fgroup"><label data-i="bk_f_tel">Téléphone</label><input type="tel" id="bk-tel" placeholder="514 000-0000"></div>
+    </div>
+
+    <div class="bk-error" id="bk-error"></div>
+
+    <button class="bk-submit" id="bk-submit" onclick="bkSubmit()">
+      <span id="bk-submit-txt" data-i="bk_submit">✈ CONFIRMER LA RÉSERVATION</span>
+      <div class="bk-spinner" id="bk-spinner"></div>
+    </button>
+  </div>
+</section>
+
+<!-- CONFIRMATION OVERLAY -->
+<div class="bk-overlay" id="bk-overlay">
+  <div class="bk-card">
+    <div class="bk-check">✅</div>
+    <h3 data-i="bk_ov_title">Merci pour votre réservation !</h3>
+    <p data-i="bk_ov_sub">Votre chauffeur sera bientôt assigné. Confirmez rapidement via l'un des canaux ci-dessous.</p>
+    <div class="bk-channels">
+      <button onclick="bkConfirmMessenger()" class="fb" type="button" data-i="bk_ov_fb">📘 MESSENGER</button>
+      <button onclick="bkConfirmSMS()" class="sms" type="button" data-i="bk_ov_sms">📱 SMS</button>
+      <button onclick="bkConfirmWhatsApp()" type="button" data-i="bk_ov_wa">💬 WHATSAPP</button>
+    </div>
+    <div class="bk-ref">
+      <div class="bk-ref-lbl" data-i="bk_ov_ref">NUMÉRO DE RÉSERVATION</div>
+      <div class="bk-ref-num" id="bk-ov-ref">TS-0000</div>
+    </div>
+    <div class="bk-summary" id="bk-ov-summary"></div>
+    <div class="bk-price-box">
+      <div class="bk-price" id="bk-ov-price">—</div>
+      <div class="bk-price-note" data-i="bk_ov_note">Tarif fixe · SUV Elite</div>
+    </div>
+    <a href="https://square.link/u/tsQ8xVf3" onclick="trackDeposit()" target="_blank" class="bk-pay-btn" data-i="bk_ov_pay">💳 PAYER LE DÉPÔT EN LIGNE</a>
+    <button class="bk-close-btn" onclick="bkCloseOverlay()" data-i="bk_ov_close">Fermer</button>
+  </div>
+</div>
+
+<!-- TARIFS -->
+<section id="tarifs">
+  <div class="sec-inner">
+    <span class="sec-eyebrow" data-i="t_eyebrow">TARIFS FIXES — SUV ELITE</span>
+    <h2 class="sec-title" data-i="t_title">Prix <em>transparents</em>,<br>sans surprise</h2>
+    <p class="sec-lede" data-i="t_lede">Tous les tarifs sont fixes et confirmés à la réservation. Aucun frais caché, aucun surcharge.</p>
+
+    <table class="tarif-table">
+      <thead>
+        <tr>
+          <th data-i="t_col1">TRAJET</th>
+          <th data-i="t_col2">DÉTAILS</th>
+          <th data-i="t_col3">PRIX</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tarif-sep"><td colspan="3" data-i="t_sec1">MONTRÉAL CENTRE-VILLE → YUL</td></tr>
+        <tr>
+          <td data-i="t_downtown_n">Centre-Ville → YUL</td>
+          <td data-i="t_downtown_d">~20 km · 25 min</td>
+          <td>120$</td>
+        </tr>
+
+        <tr class="tarif-sep"><td colspan="3" data-i="t_sec2">SUD — RIVE-SUD → AÉROPORT YUL</td></tr>
+        <tr>
+          <td data-i="t_z1_n">Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand</td>
+          <td data-i="t_z1_d">~30 km · ~30 min</td>
+          <td>160$</td>
+        </tr>
+        <tr>
+          <td data-i="t_z2_n">Varennes, Carignan, Chambly, Sainte-Julie</td>
+          <td data-i="t_z2_d">~45 km · ~42 min</td>
+          <td>185$</td>
+        </tr>
+        <tr>
+          <td data-i="t_z3_n">Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville</td>
+          <td data-i="t_z3_d">~55 km · ~50 min</td>
+          <td>210$</td>
+        </tr>
+        <tr>
+          <td data-i="t_z4_n">Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe</td>
+          <td data-i="t_z4_d">~75 km · ~1h</td>
+          <td>235$</td>
+        </tr>
+
+        <tr class="tarif-sep"><td colspan="3" data-i="t_sec4">NORD — LAURENTIDES → AÉROPORT YUL</td></tr>
+        <tr>
+          <td data-i="t_n1_n">Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosemère, Sainte-Thérèse</td>
+          <td data-i="t_n1_d">~26 km · ~25 min</td>
+          <td>165$</td>
+        </tr>
+        <tr>
+          <td data-i="t_n2_n">Blainville, Lorraine, Bois-des-Filion</td>
+          <td data-i="t_n2_d">~37 km · ~35 min</td>
+          <td>175$</td>
+        </tr>
+        <tr>
+          <td data-i="t_n3_n">Mirabel, Sainte-Anne-des-Plaines</td>
+          <td data-i="t_n3_d">~42 km · ~38 min</td>
+          <td>185$</td>
+        </tr>
+        <tr>
+          <td data-i="t_n4_n">Saint-Jérôme</td>
+          <td data-i="t_n4_d">~58 km · ~50 min</td>
+          <td>195$</td>
+        </tr>
+        <tr>
+          <td data-i="t_n5_n">Prévost</td>
+          <td data-i="t_n5_d">~62 km · ~53 min</td>
+          <td>215$</td>
+        </tr>
+        <tr>
+          <td data-i="t_n6_n">Saint-Sauveur, Piedmont</td>
+          <td data-i="t_n6_d">~72 km · ~62 min</td>
+          <td>230$</td>
+        </tr>
+
+        <tr class="tarif-sep"><td colspan="3" data-i="t_sec3">LONGUE DISTANCE</td></tr>
+        <tr>
+          <td data-i="t_trbl_n">Mont-Tremblant</td>
+          <td data-i="t_trbl_d">~145 km · ~1h45</td>
+          <td>550$</td>
+        </tr>
+        <tr>
+          <td data-i="t_ott_n">Ottawa</td>
+          <td data-i="t_ott_d">~200 km · ~2h</td>
+          <td>820$</td>
+        </tr>
+        <tr>
+          <td data-i="t_qc_n">Québec City</td>
+          <td data-i="t_qc_d">~260 km · ~2h30</td>
+          <td>1050$</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="tarif-note" data-i="t_note">* Tarifs depuis/vers Montréal, Rive-Sud ou Laurentides · Dépôt requis à la réservation · Autres destinations sur demande</p>
+  </div>
+</section>
+
+<div class="sec-divider"></div>
+
+<!-- HOURLY SERVICE -->
+<section>
+  <div class="sec-inner">
+    <span class="sec-eyebrow" data-i="hr_eyebrow">SERVICE FLEXIBLE</span>
+    <h2 class="sec-title" data-i="hr_title">SUV Elite <em>à l'heure</em></h2>
+    <p class="sec-lede" data-i="hr_lede1">Votre itinéraire ne se limite pas toujours à un point A et un point B. Un rendez-vous, puis un autre, un dîner, puis retour au bureau — avec le service à l'heure, votre véhicule et votre chauffeur restent à votre disposition pendant toute la durée de la réservation. Aucune nouvelle réservation, aucune attente. Indiquez simplement à votre chauffeur la prochaine destination.</p>
+    <p class="sec-lede" style="margin-top:16px" data-i="hr_lede2">Idéal pour les déplacements d'affaires avec plusieurs rendez-vous, les événements corporatifs, le magasinage, ou une journée sur mesure — sans frais horaires supplémentaires et sans surcharge, même aux heures de pointe.</p>
+
+    <table class="tarif-table" style="margin-top:36px">
+      <tbody>
+        <tr class="tarif-sep"><td colspan="3" data-i="hr_sec">SERVICE À L'HEURE</td></tr>
+        <tr>
+          <td data-i="hr_row_n">Agglomération de Montréal</td>
+          <td data-i="hr_row_d">Minimum 3 heures</td>
+          <td>150$/h</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="tarif-note" data-i="hr_note">* Arrêts multiples inclus · Territoire : agglomération de Montréal · Longue distance (Ottawa, Québec, Mont-Tremblant) sur devis séparé</p>
+    <p class="tarif-note" style="margin-top:8px;color:var(--y)" data-i="hr_fleet_note">Vous réservez plusieurs véhicules en même temps ? Transferts de groupe et événements corporatifs — conditions spéciales sur demande.</p>
+    <a href="/prive.html" class="btn-primary" style="display:inline-block;margin-top:24px;text-decoration:none" data-i="hr_cta">RÉSERVER UN SERVICE PRIVÉ</a>
+  </div>
+</section>
+
+<div class="sec-divider"></div>
+
+<!-- CALLBACK 2 -->
+<div class="cb-section">
+  <div class="cb-inner">
+    <div class="cb-title" data-i="cb_title">Prêt à réserver ?</div>
+    <div class="cb-sub" data-i="cb2_sub">Écrivez-nous — confirmation rapide, prix fixe, aucune surprise</div>
+    <div class="cb-row">
+      <a href="tel:+15147149576" class="cb-btn" data-i="cb_call"><span class="cb-dot"></span>CALL</a>
+      <a id="lnk-cb2-sms" href="#" class="cb-btn" style="border-color:var(--y);color:var(--y)" data-i="cb_sms"><span class="cb-dot"></span>SMS</a>
+      <a id="lnk-cb2-wa" href="#" class="cb-btn" data-i="cb_wa"><span class="cb-dot"></span>WHATSAPP</a>
+      <a href="https://m.me/pontemtltaxi" class="cb-btn" data-i="cb_ms"><span class="cb-dot"></span>MESSENGER</a>
+    </div>
+  </div>
+</div>
+
+<!-- CLOSING -->
+<section class="closing">
+  <p class="closing-quote" data-i="c_quote">Contrôle. Calme. <em>Confiance.</em></p>
+  <div class="hero-cta-row">
+    <a id="lnk-closing-wa" href="#" class="btn-primary" data-i="h_wa">RÉSERVER SUR WHATSAPP</a>
+    <a href="tel:+15147149576" class="btn-ghost" data-i="h_call">APPELER</a>
+    <a id="lnk-closing-sms" href="#" class="btn-primary" data-i="h_sms">SMS</a>
+    <a href="https://m.me/pontemtltaxi" class="btn-ghost" data-i="h_ms">MESSENGER</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="f-logo">PONTE<span>TAXI</span></div>
+  <div class="f-links">
+    <a href="/" data-i="f_home">Accueil</a>
+    <a href="tel:+15147149576">(514) 714-9576</a>
+    <a href="mailto:info@pontetaxi.ca">info@pontetaxi.ca</a>
+    <div class="f-social">
+      <a href="https://instagram.com/pontemtltaxi" target="_blank" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3.05.01 4.12.06 1.07.05 1.79.22 2.43.46.66.26 1.22.6 1.76 1.15.55.54.89 1.1 1.15 1.76.24.64.41 1.36.46 2.43.05 1.07.06 1.42.06 4.12s-.01 3.05-.06 4.12c-.05 1.07-.22 1.79-.46 2.43-.26.66-.6 1.22-1.15 1.76-.54.55-1.1.89-1.76 1.15-.64.24-1.36.41-2.43.46-1.07.05-1.42.06-4.12.06s-3.05-.01-4.12-.06c-1.07-.05-1.79-.22-2.43-.46-.66-.26-1.22-.6-1.76-1.15-.55-.54-.89-1.1-1.15-1.76-.24-.64-.41-1.36-.46-2.43C2.01 15.05 2 14.7 2 12s.01-3.05.06-4.12c.05-1.07.22-1.79.46-2.43.26-.66.6-1.22 1.15-1.76.54-.55 1.1-.89 1.76-1.15.64-.24 1.36-.41 2.43-.46C8.95 2.01 9.3 2 12 2zm0 1.8c-2.67 0-2.99.01-4.04.06-.97.04-1.5.2-1.85.34-.46.18-.79.4-1.14.74-.34.35-.56.68-.74 1.14-.14.35-.3.88-.34 1.85C3.84 9 3.8 9.33 3.8 12s.01 2.99.06 4.04c.04.97.2 1.5.34 1.85.18.46.4.79.74 1.14.35.34.68.56 1.14.74.35.14.88.3 1.85.34 1.05.05 1.37.06 4.04.06s2.99-.01 4.04-.06c.97-.04 1.5-.2 1.85-.34.46-.18.79-.4 1.14-.74.34-.35.56-.68.74-1.14.14-.35.3-.88.34-1.85.05-1.05.06-1.37.06-4.04s-.01-2.99-.06-4.04c-.04-.97-.2-1.5-.34-1.85-.18-.46-.4-.79-.74-1.14-.35-.34-.68-.56-1.14-.74-.35-.14-.88-.3-1.85-.34C14.99 3.81 14.67 3.8 12 3.8zm0 3.06a5.14 5.14 0 1 1 0 10.28 5.14 5.14 0 0 1 0-10.28zm0 1.8a3.34 3.34 0 1 0 0 6.68 3.34 3.34 0 0 0 0-6.68zm5.4-3.34a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>
+      </a>
+      <a href="https://m.me/pontemtltaxi" target="_blank" aria-label="Facebook">
+        <svg viewBox="0 0 24 24"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="f-copy" data-i="f_copy">&copy; 2026 Pont&eacute; Taxi &middot; Montr&eacute;al, Qu&eacute;bec</div>
+</footer>
+
+<script>
+var L = 'fr';
+var WA = '15147149576';
+
+var fr = {
+  nav_back:"Rive-Sud \u0026 Nord \u2192",
+  h_eyebrow:"PONT\u00c9 TAXI \u00b7 SUV ELITE",
+  h_title:"Contrôle. Calme.<br><em>Confiance.</em>",h_tagline:"SUV ELITE BY PONTÉ TAXI",h_models:"Catégorie SUV Elite : GMC Yukon, Chevrolet Tahoe, Jeep Wagoneer, Chevrolet Suburban ou véhicule équivalent selon disponibilité.",
+  h_sub:"Chauffeur professionnel \u00b7 Wi-Fi \u00e0 bord \u00b7 Eau incluse \u00b7 Prix fixe garanti",
+  h_wa:"R\u00c9SERVER SUR WHATSAPP",
+  h_book_now:"R\u00c9SERVER MAINTENANT",
+  h_call:"APPELER",
+  h_sms:"SMS",
+  h_ms:"MESSENGER",
+  h_tarifs:"VOIR LES TARIFS",
+  inc_eyebrow:"INCLUS DANS CHAQUE TRAJET",
+  inc_title:"Une <em>exp\u00e9rience</em> compl\u00e8te",
+  inc1_t:"CHAUFFEUR PROFESSIONNEL",inc1_d:"Certifi\u00e9, courtois et ponctuel.",
+  inc2_t:"WI-FI \u00c0 BORD",inc2_d:"Restez connect\u00e9 tout au long du trajet.",
+  inc3_t:"EAU FRA\u00ceCHE INCLUSE",inc3_d:"Bouteilles d\u2019eau offertes \u00e0 chaque passager.",
+  inc4_t:"PRIX FIXE GARANTI",inc4_d:"Aucune surprise \u2014 le prix affich\u00e9 est le prix final.",
+  inc5_t:"SUIVI DE VOL",inc5_d:"Nous surveillons votre vol en temps r\u00e9el.",
+  inc6_t:"JUSQU\u2019\u00c0 6 PASSAGERS",inc6_d:"Id\u00e9al pour groupes, familles et \u00e9quipes corporate.",
+  t_eyebrow:"TARIFS FIXES \u2014 SUV ELITE",
+  t_title:"Prix <em>transparents</em>,<br>sans surprise",
+  t_lede:"Tous les tarifs sont fixes et confirm\u00e9s \u00e0 la r\u00e9servation. Aucun frais cach\u00e9, aucun surcharge.",
+  t_col1:"TRAJET",t_col2:"D\u00c9TAILS",t_col3:"PRIX",
+  t_sec1:"MONTR\u00c9AL CENTRE-VILLE \u2192 YUL",
+  t_downtown_n:"Centre-Ville \u2192 YUL",t_downtown_d:"~20 km \u00b7 25 min",
+  t_sec2:"SUD \u2014 RIVE-SUD \u2192 A\u00c9ROPORT YUL",
+  t_z1_n:"Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand",t_z1_d:"~30 km \u00b7 ~30 min",
+  t_z2_n:"Varennes, Carignan, Chambly, Sainte-Julie",t_z2_d:"~45 km \u00b7 ~42 min",
+  t_z3_n:"Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville",t_z3_d:"~55 km \u00b7 ~50 min",
+  t_z4_n:"Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe",t_z4_d:"~75 km \u00b7 ~1h",
+  t_sec4:"NORD \u2014 LAURENTIDES \u2192 A\u00c9ROPORT YUL",
+  t_n1_n:"Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosem\u00e8re, Sainte-Th\u00e9r\u00e8se",t_n1_d:"~26 km \u00b7 ~25 min",
+  t_n2_n:"Blainville, Lorraine, Bois-des-Filion",t_n2_d:"~37 km \u00b7 ~35 min",
+  t_n3_n:"Mirabel, Sainte-Anne-des-Plaines",t_n3_d:"~42 km \u00b7 ~38 min",
+  t_n4_n:"Saint-J\u00e9r\u00f4me",t_n4_d:"~58 km \u00b7 ~50 min",
+  t_n5_n:"Pr\u00e9vost",t_n5_d:"~62 km \u00b7 ~53 min",
+  t_n6_n:"Saint-Sauveur, Piedmont",t_n6_d:"~72 km \u00b7 ~62 min",
+  t_sec3:"LONGUE DISTANCE",
+  t_trbl_n:"Mont-Tremblant",t_trbl_d:"~145 km \u00b7 ~1h45",
+  t_ott_n:"Ottawa",t_ott_d:"~200 km \u00b7 ~2h",
+  t_qc_n:"Qu\u00e9bec City",t_qc_d:"~260 km \u00b7 ~2h30",
+  bk_grp_center:"CENTRE-VILLE",bk_grp_south:"SUD \u2014 RIVE-SUD",bk_grp_north:"NORD \u2014 LAURENTIDES",bk_grp_long:"LONGUE DISTANCE",
+  bk_r_n1:"Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosem\u00e8re, Sainte-Th\u00e9r\u00e8se",bk_r_n2:"Blainville, Lorraine, Bois-des-Filion",bk_r_n3:"Mirabel, Sainte-Anne-des-Plaines",bk_r_n4:"Saint-J\u00e9r\u00f4me",bk_r_n5:"Pr\u00e9vost",bk_r_n6:"Saint-Sauveur, Piedmont",
+  t_note:"* Tarifs depuis/vers Montr\u00e9al ou Rive-Sud \u00b7 D\u00e9p\u00f4t requis \u00e0 la r\u00e9servation \u00b7 Autres destinations sur demande",
+  hr_eyebrow:"SERVICE FLEXIBLE",
+  hr_title:"SUV Elite <em>\u00e0 l\u2019heure</em>",
+  hr_lede1:"Votre itin\u00e9raire ne se limite pas toujours \u00e0 un point A et un point B. Un rendez-vous, puis un autre, un d\u00eener, puis retour au bureau \u2014 avec le service \u00e0 l\u2019heure, votre v\u00e9hicule et votre chauffeur restent \u00e0 votre disposition pendant toute la dur\u00e9e de la r\u00e9servation. Aucune nouvelle r\u00e9servation, aucune attente. Indiquez simplement \u00e0 votre chauffeur la prochaine destination.",
+  hr_lede2:"Id\u00e9al pour les d\u00e9placements d\u2019affaires avec plusieurs rendez-vous, les \u00e9v\u00e9nements corporatifs, le magasinage, ou une journ\u00e9e sur mesure \u2014 sans frais horaires suppl\u00e9mentaires et sans surcharge, m\u00eame aux heures de pointe.",
+  hr_sec:"SERVICE \u00c0 L\u2019HEURE",
+  hr_row_n:"Agglom\u00e9ration de Montr\u00e9al",
+  hr_row_d:"Minimum 3 heures",
+  hr_note:"* Arr\u00eats multiples inclus \u00b7 Territoire\u00a0: agglom\u00e9ration de Montr\u00e9al \u00b7 Longue distance (Ottawa, Qu\u00e9bec, Mont-Tremblant) sur devis s\u00e9par\u00e9",
+  hr_fleet_note:"Vous r\u00e9servez plusieurs v\u00e9hicules en m\u00eame temps\u00a0? Transferts de groupe et \u00e9v\u00e9nements corporatifs \u2014 conditions sp\u00e9ciales sur demande.",
+  hr_cta:"R\u00c9SERVER UN SERVICE PRIV\u00c9",
+  bk_eyebrow:"R\u00c9SERVATION",
+  bk_title:"R\u00e9servez votre <em>SUV Elite</em>",
+  bk_lede:"Choisissez votre trajet, indiquez vos coordonn\u00e9es, et confirmez en un instant.",
+  bk_r_downtown:"Centre-Ville \u2192 YUL",
+  bk_r_z1:"Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand",
+  bk_r_z2:"Varennes, Carignan, Chambly, Sainte-Julie",
+  bk_r_z3:"Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville",
+  bk_r_z4:"Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe",
+  bk_r_trbl:"Mont-Tremblant",
+  bk_r_ott:"Ottawa",
+  bk_r_qc:"Qu\u00e9bec City",bk_notfound:"Votre ville n\u2019est pas dans la liste\u00a0? \u00c9crivez-nous, nous vous transmettrons l\u2019information rapidement.",
+  bk_f_date:"Date",
+  bk_f_time:"Heure",
+  bk_f_flight:"Vol (optionnel)",
+  bk_f_name:"Nom complet",
+  bk_f_tel:"T\u00e9l\u00e9phone",
+  bk_submit:"\u2708 CONFIRMER LA R\u00c9SERVATION",
+  bk_ov_title:"Merci pour votre r\u00e9servation\u00a0!",
+  bk_ov_sub:"Votre chauffeur sera bient\u00f4t assign\u00e9. Confirmez rapidement via l\u2019un des canaux ci-dessous.",
+  bk_ov_fb:"\uD83D\uDCD8 MESSENGER",
+  bk_ov_sms:"\uD83D\uDCF1 SMS",
+  bk_ov_wa:"\uD83D\uDCAC WHATSAPP",
+  bk_ov_ref:"NUM\u00c9RO DE R\u00c9SERVATION",
+  bk_ov_note:"Tarif fixe \u00b7 SUV Elite",
+  bk_ov_pay:"\uD83D\uDCB3 PAYER LE D\u00c9P\u00d4T EN LIGNE",
+  bk_ov_close:"Fermer",
+  cb_title:"R\u00e9servez votre SUV Elite",
+  cb_sub:"Choisissez votre canal pr\u00e9f\u00e9r\u00e9 \u2014 nous confirmons en moins de 15 minutes",
+  cb2_sub:"\u00c9crivez-nous \u2014 confirmation rapide, prix fixe, aucune surprise",
+  cb_call:"CALL",cb_sms:"SMS",cb_wa:"WHATSAPP",cb_ms:"MESSENGER",
+  c_quote:"Contrôle. Calme. <em>Confiance.</em>",
+  f_home:"Accueil",
+  f_copy:"\u00a9 2026 Pont\u00e9 Taxi \u00b7 Montr\u00e9al, Qu\u00e9bec",
+  msg_hero:"Bonjour Pont\u00e9 Taxi, je souhaite r\u00e9server le service SUV Elite."
+};
+
+var en = {
+  nav_back:"South Shore \u0026 North \u2192",
+  h_eyebrow:"PONT\u00c9 TAXI \u00b7 SUV ELITE",
+  h_title:"Control. Calm.<br><em>Confidence.</em>",h_tagline:"SUV ELITE BY PONTÉ TAXI",h_models:"Elite SUV category: GMC Yukon, Chevrolet Tahoe, Jeep Wagoneer, Chevrolet Suburban or equivalent vehicle based on availability.",
+  h_sub:"Professional chauffeur \u00b7 Wi-Fi onboard \u00b7 Water included \u00b7 Fixed price guaranteed",
+  h_wa:"BOOK ON WHATSAPP",
+  h_book_now:"BOOK NOW",
+  h_call:"CALL",
+  h_sms:"SMS",
+  h_ms:"MESSENGER",
+  h_tarifs:"VIEW RATES",
+  inc_eyebrow:"INCLUDED IN EVERY RIDE",
+  inc_title:"A complete <em>experience</em>",
+  inc1_t:"PROFESSIONAL CHAUFFEUR",inc1_d:"Certified, courteous and punctual.",
+  inc2_t:"ONBOARD WI-FI",inc2_d:"Stay connected throughout the journey.",
+  inc3_t:"FRESH WATER INCLUDED",inc3_d:"Water bottles provided for each passenger.",
+  inc4_t:"FIXED PRICE GUARANTEED",inc4_d:"No surprises \u2014 the price shown is the final price.",
+  inc5_t:"FLIGHT TRACKING",inc5_d:"We monitor your flight in real time.",
+  inc6_t:"UP TO 6 PASSENGERS",inc6_d:"Ideal for groups, families, and corporate teams.",
+  t_eyebrow:"FIXED RATES \u2014 SUV ELITE",
+  t_title:"<em>Transparent</em> pricing,<br>no surprises",
+  t_lede:"All rates are fixed and confirmed at booking. No hidden fees, no surcharges.",
+  t_col1:"ROUTE",t_col2:"DETAILS",t_col3:"PRICE",
+  t_sec1:"MONTR\u00c9AL DOWNTOWN \u2192 YUL",
+  t_downtown_n:"Downtown \u2192 YUL",t_downtown_d:"~20 km \u00b7 25 min",
+  t_sec2:"SOUTH \u2014 SOUTH SHORE \u2192 YUL AIRPORT",
+  t_z1_n:"Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand",t_z1_d:"~30 km \u00b7 ~30 min",
+  t_z2_n:"Varennes, Carignan, Chambly, Sainte-Julie",t_z2_d:"~45 km \u00b7 ~42 min",
+  t_z3_n:"Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville",t_z3_d:"~55 km \u00b7 ~50 min",
+  t_z4_n:"Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe",t_z4_d:"~75 km \u00b7 ~1h",
+  t_sec4:"NORTH \u2014 LAURENTIANS \u2192 YUL AIRPORT",
+  t_n1_n:"Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosem\u00e8re, Sainte-Th\u00e9r\u00e8se",t_n1_d:"~26 km \u00b7 ~25 min",
+  t_n2_n:"Blainville, Lorraine, Bois-des-Filion",t_n2_d:"~37 km \u00b7 ~35 min",
+  t_n3_n:"Mirabel, Sainte-Anne-des-Plaines",t_n3_d:"~42 km \u00b7 ~38 min",
+  t_n4_n:"Saint-J\u00e9r\u00f4me",t_n4_d:"~58 km \u00b7 ~50 min",
+  t_n5_n:"Pr\u00e9vost",t_n5_d:"~62 km \u00b7 ~53 min",
+  t_n6_n:"Saint-Sauveur, Piedmont",t_n6_d:"~72 km \u00b7 ~62 min",
+  t_sec3:"LONG DISTANCE",
+  t_trbl_n:"Mont-Tremblant",t_trbl_d:"~145 km \u00b7 ~1h45",
+  t_ott_n:"Ottawa",t_ott_d:"~200 km \u00b7 ~2h",
+  t_qc_n:"Quebec City",t_qc_d:"~260 km \u00b7 ~2h30",
+  bk_grp_center:"DOWNTOWN",bk_grp_south:"SOUTH \u2014 SOUTH SHORE",bk_grp_north:"NORTH \u2014 LAURENTIANS",bk_grp_long:"LONG DISTANCE",
+  bk_r_n1:"Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosem\u00e8re, Sainte-Th\u00e9r\u00e8se",bk_r_n2:"Blainville, Lorraine, Bois-des-Filion",bk_r_n3:"Mirabel, Sainte-Anne-des-Plaines",bk_r_n4:"Saint-J\u00e9r\u00f4me",bk_r_n5:"Pr\u00e9vost",bk_r_n6:"Saint-Sauveur, Piedmont",
+  t_note:"* Rates from/to Montr\u00e9al or South Shore \u00b7 Deposit required at booking \u00b7 Other destinations on request",
+  hr_eyebrow:"FLEXIBLE SERVICE",
+  hr_title:"SUV Elite <em>by the hour</em>",
+  hr_lede1:"Your day rarely fits into a single point A to point B. One meeting, then another, dinner, then back to the office \u2014 with hourly service, your vehicle and chauffeur stay at your disposal for the entire booking. No re-booking, no waiting around. Just tell your driver where\u2019s next.",
+  hr_lede2:"Perfect for business trips with multiple stops, corporate events, shopping, or a custom day on your own schedule \u2014 no hourly surcharges, no surge pricing, even during peak hours.",
+  hr_sec:"HOURLY SERVICE",
+  hr_row_n:"Greater Montr\u00e9al",
+  hr_row_d:"3-hour minimum",
+  hr_note:"* Multiple stops included \u00b7 Territory: Greater Montr\u00e9al \u00b7 Long distance (Ottawa, Qu\u00e9bec, Mont-Tremblant) quoted separately",
+  hr_fleet_note:"Booking multiple vehicles at once? Group transfers and corporate events \u2014 special rates available on request.",
+  hr_cta:"BOOK A PRIVATE SERVICE",
+  bk_eyebrow:"BOOKING",
+  bk_title:"Book your <em>SUV Elite</em>",
+  bk_lede:"Choose your route, enter your details, and confirm instantly.",
+  bk_r_downtown:"Downtown \u2192 YUL",
+  bk_r_z1:"Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand",
+  bk_r_z2:"Varennes, Carignan, Chambly, Sainte-Julie",
+  bk_r_z3:"Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville",
+  bk_r_z4:"Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe",
+  bk_r_trbl:"Mont-Tremblant",
+  bk_r_ott:"Ottawa",
+  bk_r_qc:"Quebec City",bk_notfound:"City not on the list? Message us and we\u2019ll get you the information quickly.",
+  bk_f_date:"Date",
+  bk_f_time:"Time",
+  bk_f_flight:"Flight (optional)",
+  bk_f_name:"Full name",
+  bk_f_tel:"Phone",
+  bk_submit:"\u2708 CONFIRM BOOKING",
+  bk_ov_title:"Thank you for your booking!",
+  bk_ov_sub:"Your chauffeur will be assigned shortly. Confirm quickly via one of the channels below.",
+  bk_ov_fb:"\uD83D\uDCD8 MESSENGER",
+  bk_ov_sms:"\uD83D\uDCF1 SMS",
+  bk_ov_wa:"\uD83D\uDCAC WHATSAPP",
+  bk_ov_ref:"BOOKING NUMBER",
+  bk_ov_note:"Fixed rate \u00b7 SUV Elite",
+  bk_ov_pay:"\uD83D\uDCB3 PAY DEPOSIT ONLINE",
+  bk_ov_close:"Close",
+  cb_title:"Book your SUV Elite",
+  cb_sub:"Choose your preferred channel \u2014 we confirm within 15 minutes",
+  cb2_sub:"Message us \u2014 quick confirmation, fixed price, no surprises",
+  cb_call:"CALL",cb_sms:"SMS",cb_wa:"WHATSAPP",cb_ms:"MESSENGER",
+  c_quote:"Control. Calm. <em>Confidence.</em>",
+  f_home:"Home",
+  f_copy:"\u00a9 2026 Pont\u00e9 Taxi \u00b7 Montreal, Quebec",
+  msg_hero:"Hello Pont\u00e9 Taxi, I would like to book the SUV Elite service."
+};
+
+function setLang(lang){
+  L = lang;
+  try{ localStorage.setItem('ponte_lang', lang); }catch(e){}
+  document.documentElement.lang = lang;
+  document.getElementById('btn-fr').classList.toggle('active', lang==='fr');
+  document.getElementById('btn-en').classList.toggle('active', lang==='en');
+  var t = lang==='fr' ? fr : en;
+  document.querySelectorAll('[data-i]').forEach(function(el){
+    var k = el.dataset.i;
+    if(t[k] !== undefined){
+      if(t[k].indexOf('<') >= 0) el.innerHTML = t[k];
+      else el.textContent = t[k];
+    }
+  });
+  if(bkRoute.key) bkRoute.name = bkRouteNames[lang][bkRoute.key];
+  var msg = t.msg_hero;
+  var links = {
+    'lnk-hero-wa':    'https://wa.me/'+WA+'?text='+encodeURIComponent(msg),
+    'lnk-hero-sms':   'sms:+'+WA+'?body='+encodeURIComponent(msg),
+    'lnk-cb2-wa':     'https://wa.me/'+WA+'?text='+encodeURIComponent(msg),
+    'lnk-cb2-sms':    'sms:+'+WA+'?body='+encodeURIComponent(msg),
+    'lnk-closing-wa': 'https://wa.me/'+WA+'?text='+encodeURIComponent(msg),
+    'lnk-closing-sms':'sms:+'+WA+'?body='+encodeURIComponent(msg)
+  };
+  Object.keys(links).forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.href = links[id];
+  });
+}
+
+/* ===== BOOKING FORM ===== */
+var bkRoute = {key:'downtown', name:'Centre-Ville \u2192 YUL', price:120};
+var bkRouteNames = {
+  fr:{downtown:'Centre-Ville \u2192 YUL', sud1:'Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand', sud2:'Varennes, Carignan, Chambly, Sainte-Julie', sud3:'Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville', sud4:'Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe', nord1:'Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosem\u00e8re, Sainte-Th\u00e9r\u00e8se', nord2:'Blainville, Lorraine, Bois-des-Filion', nord3:'Mirabel, Sainte-Anne-des-Plaines', nord4:'Saint-J\u00e9r\u00f4me', nord5:'Pr\u00e9vost', nord6:'Saint-Sauveur, Piedmont', tremblant:'Mont-Tremblant', ottawa:'Ottawa', quebec:'Qu\u00e9bec City'},
+  en:{downtown:'Downtown \u2192 YUL', sud1:'Longueuil, Brossard, Boucherville, Candiac, Saint-Constant, Saint-Bruno, Saint-Basile-le-Grand', sud2:'Varennes, Carignan, Chambly, Sainte-Julie', sud3:'Richelieu, McMasterville, Saint-Amable, Beloeil, Marieville', sud4:'Mont-Saint-Hilaire, Otterburn Park, Saint-Mathieu-de-Beloeil, Saint-Jean-sur-Richelieu, Saint-Hyacinthe', nord1:'Laval, Saint-Eustache, Deux-Montagnes, Boisbriand, Rosem\u00e8re, Sainte-Th\u00e9r\u00e8se', nord2:'Blainville, Lorraine, Bois-des-Filion', nord3:'Mirabel, Sainte-Anne-des-Plaines', nord4:'Saint-J\u00e9r\u00f4me', nord5:'Pr\u00e9vost', nord6:'Saint-Sauveur, Piedmont', tremblant:'Mont-Tremblant', ottawa:'Ottawa', quebec:'Quebec City'}
+};
+var _bkLastOrder = {};
+
+function bkPickRoute(el){
+  document.querySelectorAll('.bk-route').forEach(function(r){ r.classList.remove('sel'); });
+  el.classList.add('sel');
+  var key = el.dataset.route;
+  bkRoute = { key:key, name: bkRouteNames[L][key], price: parseInt(el.dataset.price,10) };
+}
+
+function bkSubmit(){
+  var name = document.getElementById('bk-name').value.trim();
+  var tel = document.getElementById('bk-tel').value.trim();
+  var date = document.getElementById('bk-date').value;
+  var time = document.getElementById('bk-time').value || '08:00';
+  var flight = document.getElementById('bk-flight').value.trim();
+  var errEl = document.getElementById('bk-error');
+
+  if(!name||!tel||!date){
+    var missing = [];
+    if(!name) missing.push(L==='en'?'Name':'Nom');
+    if(!tel) missing.push(L==='en'?'Phone':'T\u00e9l\u00e9phone');
+    if(!date) missing.push('Date');
+    errEl.textContent = (L==='en'?'Please fill in: ':'Veuillez remplir : ') + missing.join(', ');
+    errEl.style.display = 'block';
+    errEl.scrollIntoView({behavior:'smooth', block:'center'});
+    return;
+  }
+  errEl.style.display = 'none';
+
+  var btn = document.getElementById('bk-submit');
+  var txt = document.getElementById('bk-submit-txt');
+  var spin = document.getElementById('bk-spinner');
+  btn.disabled = true;
+  txt.textContent = L==='en' ? 'SENDING...' : 'ENVOI EN COURS...';
+  spin.style.display = 'block';
+
+  var ref = 'TSE-' + Math.floor(1000 + Math.random()*9000);
+  var dateStr = new Date(date+'T12:00').toLocaleDateString(L==='en'?'en-CA':'fr-CA', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+
+  setTimeout(function(){
+    spin.style.display = 'none';
+    btn.disabled = false;
+    txt.textContent = L==='en' ? '\u2708 CONFIRM BOOKING' : '\u2708 CONFIRMER LA R\u00c9SERVATION';
+
+    _bkLastOrder = {ref:ref, name:name, tel:tel, route:bkRoute.name, price:bkRoute.price, date:dateStr, time:time, flight:flight};
+
+    document.getElementById('bk-ov-ref').textContent = ref;
+    var summary = '<strong>'+ (L==='en'?'Route: ':'Trajet : ') +'</strong>'+bkRoute.name+'<br>'
+      + '<strong>'+ (L==='en'?'Date: ':'Date : ') +'</strong>'+dateStr+' \u2014 '+time+'<br>'
+      + '<strong>'+ (L==='en'?'Name: ':'Nom : ') +'</strong>'+name+'<br>'
+      + '<strong>'+ (L==='en'?'Phone: ':'T\u00e9l\u00e9phone : ') +'</strong>'+tel
+      + (flight ? '<br><strong>'+(L==='en'?'Flight: ':'Vol : ')+'</strong>'+flight : '');
+    document.getElementById('bk-ov-summary').innerHTML = summary;
+    document.getElementById('bk-ov-price').textContent = bkRoute.price + '$';
+
+    document.getElementById('bk-overlay').classList.add('show');
+  }, 1000);
+}
+
+function bkCloseOverlay(){
+  document.getElementById('bk-overlay').classList.remove('show');
+}
+
+function bkConfirmWhatsApp(){
+  var o = _bkLastOrder;
+  var lines = [
+    '\uD83D\uDE95 SUV ELITE - ' + (o.ref||''),
+    '\uD83D\uDCCB ' + (o.name||'') + ' | ' + (o.tel||''),
+    '\uD83D\uDCCD ' + (o.route||''),
+    '\uD83D\uDCC5 ' + (o.date||'') + ' - ' + (o.time||'') + 'h',
+    o.flight ? '\u2708\uFE0F Vol: ' + o.flight : null,
+    '\uD83D\uDCB0 ' + (o.price||0) + '$',
+    '---',
+    '\u2705 Confirmer: OUI / NON'
+  ];
+  var msg = lines.filter(function(l){return l!==null&&l!==undefined;}).join('\n');
+  window.open('https://wa.me/15147149576?text=' + encodeURIComponent(msg), '_blank');
+}
+
+function bkConfirmSMS(){
+  var o = _bkLastOrder;
+  var lines = [
+    '\uD83D\uDE95 SUV ELITE - ' + (o.ref||''),
+    '\uD83D\uDCCB ' + (o.name||'') + ' | ' + (o.tel||''),
+    '\uD83D\uDCCD ' + (o.route||''),
+    '\uD83D\uDCC5 ' + (o.date||'') + ' - ' + (o.time||'') + 'h',
+    o.flight ? '\u2708\uFE0F Vol: ' + o.flight : null,
+    '\uD83D\uDCB0 ' + (o.price||0) + '$',
+    '---',
+    '\u2705 Confirmer: OUI / NON'
+  ];
+  var msg = lines.filter(function(l){return l!==null&&l!==undefined;}).join('\n');
+  window.open('sms:+15147149576?body=' + encodeURIComponent(msg), '_blank');
+}
+
+function bkConfirmMessenger(){
+  var o = _bkLastOrder;
+  var msg = (L==='en'?'Hi, booking confirmation ':'Bonjour, confirmation r\u00e9servation ') + (o.ref||'') + ' - ' + (o.route||'') + ' - ' + (o.date||'') + ' ' + (o.time||'') + ' - ' + (o.price||0) + '$';
+  window.open('https://m.me/pontemtltaxi?text=' + encodeURIComponent(msg), '_blank');
+}
+
+function trackDeposit(){
+  if(typeof gtag === 'function') gtag('event', 'deposit_click', {event_category:'conversion', event_label:'square_deposit_elite'});
+}
+
+var _bkDateInput = document.getElementById('bk-date');
+if(_bkDateInput){
+  var _today = new Date().toISOString().split('T')[0];
+  _bkDateInput.value = _today;
+  _bkDateInput.min = _today;
+}
+
+var _savedLang='fr';
+try{ _savedLang = localStorage.getItem('ponte_lang') || 'fr'; }catch(e){}
+setLang(_savedLang);
+
+
+</script>
+</body>
+</html>
